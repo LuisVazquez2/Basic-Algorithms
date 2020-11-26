@@ -10,7 +10,10 @@ void BinarySeacrh(vector<int>& current,int Findnumber){
         }
         if(current[low]>Findnumber)
             top = low;
+        else
+            low = top + 1;
     }
+    cout << "No";
 }
 int main(){
     vector<int> arre{1, 2, 3, 4};
