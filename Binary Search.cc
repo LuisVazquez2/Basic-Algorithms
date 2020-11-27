@@ -14,9 +14,10 @@ void BinarySearch(vector<int>& current,int Findnumber){
             low = mid + 1;
     }
     cout << "No";
+    //Te complexity about Binary Search is O(log(n)) -> taken (n) how long of the vector
 }
 int main(){
-    vector<int> arre{1, 2, 3, 4, 6 ,7};
+    vector<int> arre{1, 2, 3, 4, 6 ,7}; //For use Binary Search vector must be sorted
     int num;
     cin >> num;
     BinarySearch(arre,num);
